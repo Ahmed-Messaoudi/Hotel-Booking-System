@@ -34,9 +34,9 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="booking"
         options={{
-          title: 'Book Now',
+          title: 'booking',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="bookmark" color={color} />,
         }}
       />
